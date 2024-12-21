@@ -5,6 +5,7 @@ inputs.forEach((input,index)=>{
 		{
 			inputs[index+1].focus();
 		}
+		})
 		input.addEventListener("keydown",(event)=>{
 			if(event.key==='Backspace')
 			{
@@ -15,5 +16,5 @@ inputs.forEach((input,index)=>{
 				}
 			}
 		})
-	})
+
 })
