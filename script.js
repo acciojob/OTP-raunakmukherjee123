@@ -14,6 +14,10 @@ inputs.forEach((input,index)=>{
 					inputs[index].value='';
 					inputs[index-1].focus();
 				}
+				else if(index==0)
+				{
+					inputs[index].value='';
+				}
 			}
 		})
 
